@@ -1,0 +1,5 @@
+n=int(input("Enter number of players="))
+team=int(n/5)
+print("Teams are=",team)
+left=(n%5)
+print("Number of players left=",left)
